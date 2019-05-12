@@ -1,0 +1,14 @@
+let x, y;
+
+function setup() {
+  createCanvas(400, 400);
+  x=width /2;
+  y=height /2;
+}
+function draw(){
+  background(220);
+  stroke(50);
+  fill(100);
+  
+  ellipse(x, y, 30, 30);
+  y=y+1
